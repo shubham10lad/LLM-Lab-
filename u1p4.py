@@ -2,7 +2,7 @@ from sarvamai import SarvamAI
 #import pandas as pd
 #from dotenv import load_dotenv
 import json
-
+import os
 
 
 data_all = []
@@ -31,7 +31,7 @@ client = SarvamAI(
 while True:
     user_input = input("You : ")
 
-    if user_input.lower() == "exit":
+    if user_input.lower() in "by":
             print(" Nice to Meet You, Goodbye!")
             break
     else :
@@ -62,27 +62,19 @@ while True:
         data_all.append(add_data)
 
         print(data_all)
+        if os.path.exists("E:/PGDCA/LLM/Assignment/data.json"):
+            with open('data.json', 'w', encoding='utf-8') as file:  
+                json.dump(data_all, file, indent=4)
+
+        if not isinstance(data_all,list):
+            data_all = [data]
+
 
         with open('data.json', 'r', encoding='utf-8') as file:
             data = json.load(file)
-
-        if not isinstance(data,list):
-            data = [data]
-
-        new_data = add_data
-        data.append(new_data)
-       
-        with open("data.json", "w") as file:
-            json.dump(data, file, indent=4)
-
-        with open('data.json', 'r', encoding='utf-8') as file:
-            data = json.load(file)
-
-
         
         print("LLM : ",response_all)
         print("Model Name : ", response.model)     
         print("Temperature: ", temp)
         print("Top P : ",top__p)
-        print("Maximum Tokens : ", max_token)
-
+        print("Maximum Tokens : ", max_token)   
