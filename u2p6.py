@@ -73,7 +73,7 @@ async def main():
 
         if not user_input:
             continue
-        if user_input.lower() in ["bye", "exit", "quit"]:
+        if ["bye", "exit", "quit"] in user_input.lower():
             print("Nice to Meet You, Goodbye!")
             break
 
