@@ -28,10 +28,11 @@ client = SarvamAI(
     api_subscription_key= user_api
 )
 
+
 while True:
     user_input = input("You : ")
 
-    if user_input.lower() in "by":
+    if user_input.lower() in ["bye", "exit", "quit"]:
             print(" Nice to Meet You, Goodbye!")
             break
     else :
@@ -78,3 +79,4 @@ while True:
         print("Temperature: ", temp)
         print("Top P : ",top__p)
         print("Maximum Tokens : ", max_token)   
+
