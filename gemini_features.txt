@@ -1,0 +1,24 @@
+
+Gemini Features Information
+
+1. Text Generation:
+Gemini models can generate text and answer questions.
+
+2. Coding:
+Gemini models can help explain code, generate code,
+and assist with programming tasks.
+
+3. Multimodal Processing:
+Supported Gemini models can process combinations of
+text, images, audio, or video, depending on the model.
+
+4. Context Window:
+The context window varies by model and version.
+
+5. API Usage:
+Developers can integrate supported Gemini models into
+their applications using Google's APIs.
+
+6. Pricing:
+Pricing and free-tier conditions vary by model and service.
+Check official documentation for current limits and prices.

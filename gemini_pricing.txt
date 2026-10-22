@@ -1,0 +1,23 @@
+
+Gemini Pricing Information
+
+Gemini API pricing can depend on the model, input tokens,
+output tokens, context size, and other usage conditions.
+
+Illustrative Example Only:
+Model: Sample Gemini Pro
+Input price: $1.00 per 1 million tokens
+Output price: $5.00 per 1 million tokens
+
+Model: Sample Gemini Flash
+Input price: $0.10 per 1 million tokens
+Output price: $0.40 per 1 million tokens
+
+Model: Sample Gemini Flash-Lite
+Input price: $0.05 per 1 million tokens
+Output price: $0.20 per 1 million tokens
+
+IMPORTANT:
+These sample prices are fictional placeholders for testing.
+They must not be treated as actual Google Gemini API prices.
+Replace them with verified official pricing before use.

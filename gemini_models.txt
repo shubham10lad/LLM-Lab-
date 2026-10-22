@@ -1,0 +1,19 @@
+
+Gemini Models Information
+
+Gemini is a family of AI models developed by Google.
+
+Gemini Pro:
+A model category intended for complex reasoning, coding,
+content generation, and other demanding tasks.
+
+Gemini Flash:
+A model category intended for fast responses and efficient
+processing, suitable for many everyday AI applications.
+
+Gemini Flash-Lite:
+A model category intended for lightweight, high-volume tasks
+where speed and efficiency are important.
+
+Exact model names and availability may change over time.
+Always check official Google documentation for current details.
